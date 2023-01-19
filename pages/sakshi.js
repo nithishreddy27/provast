@@ -12,7 +12,7 @@ export default function sakshi() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main className={styles.main}>
-      <div className="w-full max-w-xs">
+      <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <h1 className="text-center font-bold text-2xl">Sign up to your account</h1>
             <div class="mb-4 mt-10">
