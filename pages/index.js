@@ -26,6 +26,7 @@ export default function Home() {
         </form>
         <h1>hello world</h1>
         <Link href="/sakshi">sakshi</Link>
+        <Link href="/sighnup">skt</Link>
       </main>
     </>
   )
