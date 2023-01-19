@@ -27,6 +27,7 @@ export default function Home() {
         <h1>hello world</h1>
         <Link href="/sakshi">sakshi</Link>
         <Link href="/sighnup">skt</Link>
+        <Link href="/studetails">student details</Link>
       </main>
     </>
   )
