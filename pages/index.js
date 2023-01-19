@@ -24,7 +24,6 @@ export default function Home() {
           <input type="password"  placeholder='password' name="password" className='border-black'/>
           <input type="submit" value="click" />
         </form>
-        <h1>hello world</h1>
         <Link href="/sakshi">sakshi</Link>
       </main>
     </>

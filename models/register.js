@@ -1,10 +1,8 @@
 import mongoose from 'mongoose';
 
-console.log("inside")
 const userSchema=new mongoose.Schema({
     email:{
         type:String,
-        // required:true,
         unique:true
     },
     password:{
