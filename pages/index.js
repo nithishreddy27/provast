@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1 className='text-red-500'>lets do it</h1>
+        <h1>hello world</h1>
       </main>
     </>
   )
