@@ -50,6 +50,9 @@ export default function Home() {
       </div>
         </form>
       </div>
+        <Link href="/sakshi">sakshi</Link>
+        <Link href="/sighnup">skt</Link>
+        <Link href="/studetails">student details</Link>
       </main>
     </>
   )
