@@ -9,7 +9,7 @@ export default function signUp() {
           alt=""
         />
       </div>
-      <div className="absolute top-64 left-[750px] rounded-lg w-1/4 h-auto p-14 bg-white">
+      <div className="absolute top-[25%] left-[36%] rounded-lg w-1/4 h-auto p-14 bg-white">
         <h1 className="mt-2 font-semibold text-2xl text-center">
           Sign up your account
         </h1>
