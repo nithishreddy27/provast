@@ -36,7 +36,8 @@ export default function sakshi() {
     <p>Already a user? Log in</p>
     <div className='text-center mt-3'>
     <button class="bg-blue-500 w-full hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-        Sign In
+       <Link href="/details">Sign In</Link>
+        
       </button></div>
         </form>
       </div>
