@@ -13,7 +13,7 @@ export default async function handler(req, res) {
         
             console.log("in")
             const student = await StudentDetails.create(req.body)   
-            res.redirect('/')
+            res.redirect('/studetails')
         
             if(!student){
                 return res.json({"user":"not created"})

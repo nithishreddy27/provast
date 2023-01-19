@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <img
-          className="w-screen h-screen absolute "
+          className=" absolute "
           src="https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png"
           alt=""
         />
@@ -45,13 +45,13 @@ export default function Home() {
     <p>Already a user? Log in</p>
     <p id="mess"></p>
     <div className='text-center mt-5'>
-      <input type="submit" value="submit"  className='bg-orange-600 cursor-pointer block w-[100%] text-white h-10 rounded-md hover:bg-orange-700'/>
+      <input type="submit" value="Sing up"  className='bg-orange-600 font-semibold cursor-pointer block w-[100%] text-white h-10 rounded-md hover:bg-orange-700'/>
       
       </div>
         </form>
       </div>
-        <Link href="/sakshi">sakshi</Link>
-        <Link href="/sighnup">skt</Link>
+        {/* <Link href="/sakshi">sakshi</Link>
+        <Link href="/sighnup">skt</Link> */}
         <Link href="/studetails">student details</Link>
       </main>
     </>

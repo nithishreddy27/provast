@@ -20,7 +20,7 @@ export default function studetails() {
               <div class="">
                 <span class="text-xs font-semibold">Signed In As : </span>
                 <span class="text-sm font-bold text-gray-600">
-                  sakshivuppalanchi@gmail.com
+                  {/* sakshivuppalanchi@gmail.com */}
                 </span>
               </div>
               <button
