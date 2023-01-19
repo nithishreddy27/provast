@@ -25,6 +25,7 @@ export default function Home() {
           <input type="submit" value="click" />
         </form>
         <Link href="/sakshi">sakshi</Link>
+        <Link href="/sighnup">skt</Link>
       </main>
     </>
   )
