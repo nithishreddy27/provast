@@ -8,6 +8,10 @@ const userSchema=new mongoose.Schema({
     password:{
         type:String,
         required:true,
+    },
+    rpassword:{
+        type:String,
+        required:true,
     }
 })
 module.exports = mongoose.models.StudentDetails || mongoose.model('StudentDetails',userSchema)
