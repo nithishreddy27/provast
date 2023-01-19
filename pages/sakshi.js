@@ -12,35 +12,11 @@ export default function sakshi() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main className={styles.main}>
-      <div className="sm:mx-auto sm:w-full sm:max-w-md">
-        <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-            <h1 className="text-center font-bold text-2xl">Sign up to your account</h1>
-            <div class="mb-4 mt-10">
-      <label className="block text-gray-700 text-sm mb-2 font-semibold" for="username">
-        Username
-      </label>
-      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text"/>
-    </div>
-    <div className="mb-6">
-      <label className="block text-gray-700 text-sm font-semibold mb-2" for="password">
-        Password
-      </label>
-      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password"/>
-    </div>
-    <div className="mb-6">
-      <label className="block text-gray-700 text-sm font-semibold mb-2" for="confirmpassword">
-        Confirm Password
-      </label>
-      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="confirmpassword" type="password"/>
-    </div>
-    <p>Already a user? Log in</p>
-    <div className='text-center mt-3'>
-    <button class="bg-blue-500 w-full hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-       <Link href="/details">Sign In</Link>
-        
-      </button></div>
-        </form>
-      </div>
+    <img
+          className="w-screen h-screen"
+          src="https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png"
+          alt=""
+        />
     </main>
   </>
   )
