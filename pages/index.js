@@ -52,7 +52,7 @@ export default function Home() {
       </div>
         {/* <Link href="/sakshi">sakshi</Link>
         <Link href="/sighnup">skt</Link> */}
-        <Link href="/studetails">student details</Link>
+        <Link href="/studentdetails">student details</Link>
       </main>
     </>
   )
