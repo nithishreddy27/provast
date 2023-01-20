@@ -85,7 +85,8 @@ export default function Home() {
         </div>
         {/* <Link href="/sakshi">sakshi</Link>
         <Link href="/sighnup">skt</Link> */}
-        <Link href="/studentdetails">student details</Link>
+        <Link href="/studentdetails">student details</Link><br></br>
+        <Link href="/collegedetails">College details</Link>
       </main>
     </>
   );
