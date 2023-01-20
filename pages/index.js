@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "@next/font/google";
+import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -16,44 +16,77 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <img
-          className=" absolute "
-          src="https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png"
-          alt=""
-        />
+        className=" absolute "
+        src="https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png"
+        alt=""
+      />
       <main className="z-30 relative pt-28">
-      <div className="sm:mx-auto sm:w-full sm:max-w-md">
-        <form className="bg-white shadow-md rounded px-12 pt-20 pb-8 mb-4" action='./api/register' method='POST'>
-            <h1 className="text-center font-bold text-2xl">Sign up to your account</h1>
+        <div className="sm:mx-auto sm:w-full sm:max-w-md">
+          <form
+            className="bg-white shadow-md rounded px-12 pt-20 pb-8 mb-4"
+            action="./api/register"
+            method="POST"
+          >
+            <h1 className="text-center font-bold text-2xl">
+              Sign up to your account
+            </h1>
             <div class="mb-4 mt-10">
-      <label className="block text-gray-700 text-sm mb-2 font-semibold" for="username">
-        Email address
-      </label>
-      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" name="email" type="email"/>
-    </div>
-    <div className="">
-      <label className="block text-gray-700 text-sm font-semibold mb-2" for="password">
-        Password
-      </label>
-      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" name='password' type="password"/>
-    </div>
-    <div className="">
-      <label className="block text-gray-700 text-sm font-semibold mb-2" for="confirmpassword">
-        Confirm Password
-      </label>
-      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="confirmpassword" name="rpassword" type="password"/>
-    </div>
-    <p>Already a user? Log in</p>
-    <p id="mess"></p>
-    <div className='text-center mt-5'>
-      <input type="submit" value="Sing up"  className='bg-orange-600 font-semibold cursor-pointer block w-[100%] text-white h-10 rounded-md hover:bg-orange-700'/>
-      
-      </div>
-        </form>
-      </div>
+              <label
+                className="block text-gray-700 text-sm mb-2 font-semibold"
+                for="username"
+              >
+                Email address
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="username"
+                name="email"
+                type="email"
+              />
+            </div>
+            <div className="">
+              <label
+                className="block text-gray-700 text-sm font-semibold mb-2"
+                for="password"
+              >
+                Password
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                id="password"
+                name="password"
+                type="password"
+              />
+            </div>
+            <div className="">
+              <label
+                className="block text-gray-700 text-sm font-semibold mb-2"
+                for="confirmpassword"
+              >
+                Confirm Password
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                id="confirmpassword"
+                name="rpassword"
+                type="password"
+              />
+            </div>
+            <p>Already a user? Log in</p>
+            <p id="mess"></p>
+            <div className="text-center mt-5">
+              <input
+                type="submit"
+                value="Sign up"
+                className="bg-orange-600 font-semibold cursor-pointer block w-[100%] text-white h-10 rounded-md hover:bg-orange-700"
+              />
+            </div>
+          </form>
+        </div>
         {/* <Link href="/sakshi">sakshi</Link>
         <Link href="/sighnup">skt</Link> */}
         <Link href="/studentdetails">student details</Link>
       </main>
     </>
-  )
+  );
 }
