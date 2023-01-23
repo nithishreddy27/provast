@@ -42,10 +42,9 @@ export default function studetails() {
                     <input
                       type="radio"
                       id="student"
-                      name="student"
+                      name="radio"
                       value="student"
                       class="focus:ring-orange-500 h-4 w-4 text-orange-600 border-gray-300"
-                      
                     />
                     <label
                       for="student"
@@ -58,7 +57,7 @@ export default function studetails() {
                     <input
                       type="radio"
                       id="college"
-                      name="college"
+                      name="radio"
                       value="college"
                       class="focus:ring-orange-500 h-4 w-4 text-orange-600 border-gray-300"
                     />
@@ -77,7 +76,6 @@ export default function studetails() {
                     for="paraphase"
                     class="block text-sm font-medium text-gray-700"
                   >
-                    
                     Paraphase
                   </label>
                   <span class="ml-1 text-red-600 font-semibold">*</span>
