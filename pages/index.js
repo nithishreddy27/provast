@@ -27,7 +27,7 @@ export default function Home() {
             action="./api/register"
             method="POST"
           >
-            <h1 className="text-center font-bold text-2xl">
+            <h1 className="text-center font-bold text-2xl text-white">
               Sign up to your account
             </h1>
             <div class="mb-4 mt-10">
